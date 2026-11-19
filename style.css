@@ -1,0 +1,8 @@
+body{font-family:Arial,sans-serif;margin:0;background:#f4f6f8;color:#222}
+nav{background:#1f6f50;padding:12px 20px}nav b{color:#fff;margin-right:20px}nav a{color:#d8f3e6;margin-right:16px;text-decoration:none}
+main{max-width:900px;margin:20px auto;padding:0 16px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:10px 0}th,td{padding:8px;border:1px solid #ddd;text-align:left}th{background:#e8f1ed}
+form{background:#fff;padding:14px;margin:10px 0;border:1px solid #ddd;border-radius:6px}
+input,select,textarea{padding:7px;margin:4px 4px 4px 0;max-width:100%}
+button{background:#1f6f50;color:#fff;border:0;padding:8px 14px;border-radius:4px;cursor:pointer}
+.msg{background:#fff3cd;padding:10px;border-radius:4px;margin:10px 0}.box{background:#fff;padding:12px;border:1px solid #ddd;border-radius:6px;margin:10px 0}

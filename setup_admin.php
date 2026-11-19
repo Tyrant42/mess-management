@@ -1,0 +1,2 @@
+<?php require 'config.php';
+if(!q("SELECT 1 FROM admin LIMIT 1")){q("INSERT INTO admin(username,password) VALUES('admin',?)","s",password_hash('admin123',PASSWORD_DEFAULT));echo "Admin created. Username: admin, Password: admin123. Delete this file now.";}else echo "Admin already exists.";
